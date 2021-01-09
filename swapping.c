@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include<conio.h> 
+//#include <conio.h> 
 void main()
 {
     int a,b, temp;
-    clrscr(); 
+    //clrscr(); 
     printf("Enter two integersn");
     scanf("%d%d", &a, &b);
     printf("Before Swapping\nFirst variable = %d\nSecond variable = %dn", a, b);
@@ -11,5 +11,5 @@ void main()
     a = b;
     b = temp;
     printf("After Swapping\nFirst variable = %d\nSecond variable = %dn", a, b);
-    getch();
+    //getch();
 }
