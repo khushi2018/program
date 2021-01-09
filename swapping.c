@@ -4,12 +4,12 @@ void main()
 {
     int a,b, temp;
     //clrscr(); 
-    printf("Enter two integersn");
+    printf("Enter two integers \n");
     scanf("%d%d", &a, &b);
-    printf("Before Swapping\nFirst variable = %d\nSecond variable = %dn", a, b);
+    printf("Before Swapping\nFirst variable = %d\nSecond variable = %d\n", a, b);
     temp = a;
     a = b;
     b = temp;
-    printf("After Swapping\nFirst variable = %d\nSecond variable = %dn", a, b);
+    printf("After Swapping\nFirst variable = %d\nSecond variable = %d\n", a, b);
     //getch();
 }
